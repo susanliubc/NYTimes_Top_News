@@ -38,7 +38,7 @@ Vue.component('new-list', {
 });
 
 const NYTBaseUrl = "https://api.nytimes.com/svc/topstories/v2/";
-const ApiKey = My_Api_Key;
+const ApiKey = MY_API_KEY;
 
 function buildUrl (url) {
     return NYTBaseUrl + url + ".json?api-key=" + ApiKey;
